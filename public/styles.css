@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #chat {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 600px;
+    border: 1px solid #ddd;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 600px;
+    height: 50px;
+    font-size: 14px;
+    background: #136497;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 10px;
+    transition: transform 0.3s;
+    border: 1px solid #ddd;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+    
+  }
+  
+  .messages {
+    width: 600px;
+    height: 400px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    overflow-y: scroll;
+  }  
